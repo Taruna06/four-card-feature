@@ -95,13 +95,16 @@ img
 	.main
 	{
 		margin-top:5%;
-		width:70%;
+		width:80%;
+		margin-bottom:3rem;
 	}
 	.team,.karma
 	{
 		margin:0;
-		width:72%;
-		padding-left:0.5rem;
+		width:85%;
+		padding-left:0.4rem;
+		padding-right:0.1rem;
+		margin-bottom:3rem!important;
 	}
 	.team,.karma,.supervisor,.calculator
 	{
@@ -110,10 +113,11 @@ img
 	}
 	.supervisor,.calculator
 	{
-		width:70%!important;
+		width:79%!important;
 	}
 	img
 	{
-		width:80px;
+		width:60px;
+		margin-top:1rem;
 	}
 }
