@@ -52,11 +52,13 @@ body
 {
 	margin-top:-20%;
 	border-top:3px solid hsl(0, 78%, 62%);
+	padding-left:0.5rem;
 }
 .karma
 {
 	margin-top:10%;
 	border-top:3px solid hsl(34, 97%, 64%);
+	padding-left:0.5rem;
 }
 .supervisor
 {
