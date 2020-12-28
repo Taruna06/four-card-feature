@@ -1,0 +1,117 @@
+body
+{
+	font-size:15px;
+	font-family: 'Poppins', sans-serif;
+	background-color:hsl(0, 0%, 98%) !important;
+}
+.main
+{
+    margin:auto;
+	margin-top:1%;
+	width:40%;
+	text-align:center;
+}
+.reliable,.artificial,.material
+{
+    color:hsl(229, 6%, 66%);
+	/*color:hsl(160, 2%, 40%);*/
+	font-weight:400;
+}
+.powered,.heading
+{
+	color:hsl(234, 12%, 34%);
+	font-weight:600;
+	margin-bottom:1rem;
+	margin-left:1rem;
+}
+.reliable,.powered
+{
+	font-size:25px;
+}
+
+.supervisor, .team,.karma,.calculator
+{
+	height:13rem;
+	background-color:#fff;
+	box-shadow: 8px 3px 20px 1px hsl(229, 6%, 66%);
+}
+.artificial
+{
+	margin-bottom:-0.5rem;
+	margin-top:-0.5rem;
+}
+.container
+{
+	margin-top:7%;
+}
+.col-sm
+{
+	margin:1%;
+}
+.team
+{
+	margin-top:-20%;
+	border-top:3px solid hsl(0, 78%, 62%);
+}
+.karma
+{
+	margin-top:10%;
+	border-top:3px solid hsl(34, 97%, 64%);
+}
+.supervisor
+{
+	border-top:3px solid hsl(180, 62%, 55%);
+}
+.calculator
+{
+	border-top:3px solid hsl(212, 86%, 64%);
+}
+.heading
+{
+	font-size:20px;
+	margin-top:1rem;
+}
+img
+{
+	float:right;
+	margin:12px;
+	margin-top:1.5rem;
+}
+@media (max-width: 995px) {
+	img
+	{
+		margin-top:.3rem;
+		width:30%;
+	}
+	.main
+	{
+		margin-top:5%;
+		width:70%;
+	}
+}
+@media (max-width: 575px) {
+	.main
+	{
+		margin-top:5%;
+		width:70%;
+	}
+	.team,.karma
+	{
+		margin:0;
+		width:72%;
+		padding-left:0.5rem;
+	}
+	.team,.karma,.supervisor,.calculator
+	{
+		margin:7% auto;
+		
+	}
+	.supervisor,.calculator
+	{
+		width:70%!important;
+	}
+	img
+	{
+		width:80px;
+	}
+}
