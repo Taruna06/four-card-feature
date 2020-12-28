@@ -34,6 +34,7 @@ body
 	height:13rem;
 	background-color:#fff;
 	box-shadow: 8px 3px 20px 1px hsl(229, 6%, 66%);
+	border-radius:5px;
 }
 .artificial
 {
